@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "propaganda-bot"
+version = "0.1.0"
+description = ""
+authors = ["Nikolaj Gordienko <nicolas.gordienko@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.0.1"
+gunicorn = "^21.2.0"
+flake8 = "^7.0.0"
+uvicorn = "^0.27.1"
+pydantic = "^2.6.1"
+requests = "^2.31.0"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+responses = "^0.25.0"
+httpx = "^0.26.0"
+django = "^5.0.2"
+dj-database-url = "^2.1.0"
+drf-yasg = "^1.21.7"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^4.3.1"
+nltk = "^3.8.1"
+newspaper3k = "^0.2.8"
+openai = "^1.12.0"
+argparse = "^1.4.0"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "^7.4.1"
+pyyaml = "^6.0.1"
+pytest-cov = "^4.1.0"
+django-test = "^0.4030"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
